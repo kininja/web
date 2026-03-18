@@ -35,4 +35,5 @@ enableEmoji = true
     breadcrumbs		= true
     backToTop		= true
     
-
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
