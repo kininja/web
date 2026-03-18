@@ -6,7 +6,7 @@
     <description>Recent content in Docs on helical malice</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Mar 2026 19:43:39 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 21:35:11 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Page</title>
@@ -14,6 +14,13 @@
       <pubDate>Tue, 17 Mar 2026 19:43:39 -0700</pubDate>
       <guid>http://localhost:1313/docs/example-page/</guid>
       <description>&lt;h1 id=&#34;is-this-an-example-page&#34;&gt;Is this an example page? &lt;a href=&#34;#is-this-an-example-page&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&#34;is-this-a-second-headline&#34;&gt;Is this a second headline? &lt;a href=&#34;#is-this-a-second-headline&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Is this some body text?&lt;/p&gt;&#xA;&lt;p&gt;Yay! Let&amp;rsquo;s do this.&lt;/p&gt;&#xA;&lt;p&gt;-k&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/docs/about/</link>
+      <pubDate>Tue, 17 Mar 2026 21:35:11 -0700</pubDate>
+      <guid>http://localhost:1313/docs/about/</guid>
+      <description>&lt;h1 id=&#34;start-of-a-new-page&#34;&gt;Start of a new page &lt;a href=&#34;#start-of-a-new-page&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Here&amp;rsquo;s my notes so far for setting this all up&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Hugo, new theme install, Lotus docs looks insane: &lt;a href=&#34;https://github.com/colinwilson/lotusdocs&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;https://github.com/colinwilson/lotusdocs&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;&#xA;  &lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;2a2bc8c&#34; class=&#34;language- &#34;&gt;&#xA;  &lt;code&gt;hugo mod init github.com/kininja/web&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;&#xA;  &lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;f6b36b5&#34; class=&#34;language- &#34;&gt;&#xA;  &lt;code&gt;kinji@skycatcher web % which hugo&#xA;/opt/homebrew/bin/hugo&#xA;kinji@skycatcher web % hugo mod init github.com/kininja/web&#xA;ERROR failed to init modules: binary with name &amp;#34;go&amp;#34; not found in PATH&#xA;kinji@skycatcher web %&#xA;kinji@skycatcher web % hugo mod init github.com/kininja/web&#xA;go: creating new go.mod: module github.com/kininja/web&#xA;hugo: to add module requirements and sums:&#xA;        hugo mod tidy&#xA;kinji@skycatcher web % hugo mod tidy&#xA;kinji@skycatcher web %&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;&#xA;&lt;p&gt;I brew installed go.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

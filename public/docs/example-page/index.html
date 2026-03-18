@@ -14,7 +14,7 @@
 
 <html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
-    <title>Example Page | helical malice</title>
+    <title>Example Page | Kinji&#39;s Lotus Docs site</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
@@ -46,6 +46,7 @@ Yay! Let&rsquo;s do this.
     
         <link rel="alternate" type="application/atom+xml" title="Atom feed for helical malice" href="/index.xml" />
     
+    <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
     
     
             
@@ -79,8 +80,20 @@ Yay! Let&rsquo;s do this.
                         
                         <li class="current">
                             <a class="sidebar-root-link" href="http://localhost:1313/docs/example-page/">
+                                <i class="material-icons me-2">article</i>
                                 
                                 Example Page
+                            </a>
+                        </li>
+                    
+                
+                    
+                        
+                        <li class="">
+                            <a class="sidebar-root-link" href="http://localhost:1313/docs/about/">
+                                <i class="material-icons me-2"></i>
+                                
+                                About
                             </a>
                         </li>
                     
@@ -140,6 +153,20 @@ Yay! Let&rsquo;s do this.
             <ul class="list-unstyled mb-0">
                 
             </ul>
+            <button id="mode" class="btn btn-icon btn-default ms-2" type="button" aria-label="Toggle user interface mode">
+                <span class="toggle-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 48 48" fill="currentColor">
+                        <title>Enable dark mode</title>
+                        <path d="M24 42q-7.5 0-12.75-5.25T6 24q0-7.5 5.25-12.75T24 6q.4 0 .85.025.45.025 1.15.075-1.8 1.6-2.8 3.95-1 2.35-1 4.95 0 4.5 3.15 7.65Q28.5 25.8 33 25.8q2.6 0 4.95-.925T41.9 22.3q.05.6.075.975Q42 23.65 42 24q0 7.5-5.25 12.75T24 42Zm0-3q5.45 0 9.5-3.375t5.05-7.925q-1.25.55-2.675.825Q34.45 28.8 33 28.8q-5.75 0-9.775-4.025T19.2 15q0-1.2.25-2.575.25-1.375.9-3.125-4.9 1.35-8.125 5.475Q9 18.9 9 24q0 6.25 4.375 10.625T24 39Zm-.2-14.85Z"/>
+                    </svg>
+                </span>
+                <span class="toggle-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 48 48" fill="currentColor">
+                        <title>Enable light mode</title>
+                        <path d="M24 31q2.9 0 4.95-2.05Q31 26.9 31 24q0-2.9-2.05-4.95Q26.9 17 24 17q-2.9 0-4.95 2.05Q17 21.1 17 24q0 2.9 2.05 4.95Q21.1 31 24 31Zm0 3q-4.15 0-7.075-2.925T14 24q0-4.15 2.925-7.075T24 14q4.15 0 7.075 2.925T34 24q0 4.15-2.925 7.075T24 34ZM3.5 25.5q-.65 0-1.075-.425Q2 24.65 2 24q0-.65.425-1.075Q2.85 22.5 3.5 22.5h5q.65 0 1.075.425Q10 23.35 10 24q0 .65-.425 1.075-.425.425-1.075.425Zm36 0q-.65 0-1.075-.425Q38 24.65 38 24q0-.65.425-1.075.425-.425 1.075-.425h5q.65 0 1.075.425Q46 23.35 46 24q0 .65-.425 1.075-.425.425-1.075.425ZM24 10q-.65 0-1.075-.425Q22.5 9.15 22.5 8.5v-5q0-.65.425-1.075Q23.35 2 24 2q.65 0 1.075.425.425.425.425 1.075v5q0 .65-.425 1.075Q24.65 10 24 10Zm0 36q-.65 0-1.075-.425-.425-.425-.425-1.075v-5q0-.65.425-1.075Q23.35 38 24 38q.65 0 1.075.425.425.425.425 1.075v5q0 .65-.425 1.075Q24.65 46 24 46ZM12 14.1l-2.85-2.8q-.45-.45-.425-1.075.025-.625.425-1.075.45-.45 1.075-.45t1.075.45L14.1 12q.4.45.4 1.05 0 .6-.4 1-.4.45-1.025.45-.625 0-1.075-.4Zm24.7 24.75L33.9 36q-.4-.45-.4-1.075t.45-1.025q.4-.45 1-.45t1.05.45l2.85 2.8q.45.45.425 1.075-.025.625-.425 1.075-.45.45-1.075.45t-1.075-.45ZM33.9 14.1q-.45-.45-.45-1.05 0-.6.45-1.05l2.8-2.85q.45-.45 1.075-.425.625.025 1.075.425.45.45.45 1.075t-.45 1.075L36 14.1q-.4.4-1.025.4-.625 0-1.075-.4ZM9.15 38.85q-.45-.45-.45-1.075t.45-1.075L12 33.9q.45-.45 1.05-.45.6 0 1.05.45.45.45.45 1.05 0 .6-.45 1.05l-2.8 2.85q-.45.45-1.075.425-.625-.025-1.075-.425ZM24 24Z"/>
+                    </svg>
+                </span>
+            </button>
             
         </div>
     </div>
@@ -258,6 +285,19 @@ Yay! Let&rsquo;s do this.
                                             </div>
                                             <div><hr class="doc-hr">
 <div id="doc-nav" class="d-print-none">
+
+	<div class="row flex-xl-nowrap flex-row-reverse">
+	<div class="col-sm-6 pt-2 doc-prev">
+		<a class="ms-auto" href="/docs/about/">
+			<div class="card h-100 my-1 text-end">
+				<div class="card-body py-2">
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">About <i class="material-icons align-middle">navigate_next</i></p>
+					
+				</div>
+			</div>
+		</a>
+        </div>
+	</div>
 </div></div>
                                         </div>
                                     </div>
@@ -288,6 +328,8 @@ Yay! Let&rsquo;s do this.
         
 
         
+        
+            <script>(()=>{var e=document.getElementById("mode");e!==null&&(window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",e=>{e.matches?(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")):(localStorage.setItem("theme","light"),document.documentElement.removeAttribute("data-dark-mode"))}),e.addEventListener("click",()=>{document.documentElement.toggleAttribute("data-dark-mode"),localStorage.setItem("theme",document.documentElement.hasAttribute("data-dark-mode")?"dark":"light")}),localStorage.getItem("theme")==="dark"?document.documentElement.setAttribute("data-dark-mode",""):document.documentElement.removeAttribute("data-dark-mode"))})()</script>
         
 
 
@@ -427,6 +469,13 @@ Yay! Let&rsquo;s do this.
     
     
     
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -445,6 +494,15 @@ Yay! Let&rsquo;s do this.
     index.add(
             {
                 id:  1 ,
+                href: "\/docs\/about\/",
+                title: "About",
+                description: "Start of a new page linkHere’s my notes so far for setting this all up…\nHugo, new theme install, Lotus docs looks insane: https://github.com/colinwilson/lotusdocs\nhugo mod init github.com/kininja/web kinji@skycatcher web % which hugo /opt/homebrew/bin/hugo kinji@skycatcher web % hugo mod init github.com/kininja/web ERROR failed to init modules: binary with name \"go\" not found in PATH kinji@skycatcher web % kinji@skycatcher web % hugo mod init github.com/kininja/web go: creating new go.mod: module github.com/kininja/web hugo: to add module requirements and sums: hugo mod tidy kinji@skycatcher web % hugo mod tidy kinji@skycatcher web % I brew installed go.\n",
+                content: "Start of a new page linkHere’s my notes so far for setting this all up…\nHugo, new theme install, Lotus docs looks insane: https://github.com/colinwilson/lotusdocs\nhugo mod init github.com/kininja/web kinji@skycatcher web % which hugo /opt/homebrew/bin/hugo kinji@skycatcher web % hugo mod init github.com/kininja/web ERROR failed to init modules: binary with name \"go\" not found in PATH kinji@skycatcher web % kinji@skycatcher web % hugo mod init github.com/kininja/web go: creating new go.mod: module github.com/kininja/web hugo: to add module requirements and sums: hugo mod tidy kinji@skycatcher web % hugo mod tidy kinji@skycatcher web % I brew installed go.\nhugo new docs/example-page.md kinji@skycatcher web % hugo new docs/example-page.md kinji@skycatcher web % hugo new docs/example-page.md ERROR failed to load config: \"/Users/kinji/git-kininja/web/hugo.toml:3:24\": unmarshal failed: toml: literal strings cannot have new lines kinji@skycatcher web % vi hugo.toml kinji@skycatcher web % vi hugo.toml kinji@skycatcher web % hugo new docs/example-page.md go: no module dependencies to download go: downloading github.com/colinwilson/lotusdocs v0.2.0 hugo: downloading modules … go: added github.com/colinwilson/lotusdocs v0.2.0 go: downloading github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20800 go: added github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20800 hugo: collected modules in 18555 msContent \"/Users/kinji/git-kininja/web/content/docs/example-page.md\" created Whoops, didn’t single quote close on the name. Fixed, we’re off and running.\nOk, looks good in hugo server -D\nLet’s add a Github action in .github/workflows/hugo.yaml:\nname: Deploy Hugo site to Pages on: push: branches: [\"main\"] permissions: contents: read pages: write id-token: write jobs: build: runs-on: ubuntu-latest steps: - name: Checkout uses: actions/checkout@v4 with: submodules: recursive - name: Setup Hugo uses: peaceiris/actions-hugo@v3 with: hugo-version: 'latest' extended: true - name: Build run: hugo --minify - name: Upload artifact uses: actions/upload-pages-artifact@v3 with: path: ./public deploy: environment: name: github-pages runs-on: ubuntu-latest needs: build steps: - name: Deploy to GitHub Pages id: deployment uses: actions/deploy-pages@v4 Github -\u003e Settings -\u003e Pages -\u003e Github actions (instead of deploy from branch).\nAdd DNS domain below.\nAdd domain in Profile -\u003e Settings -\u003e Code, planning and automation -\u003e Pages, add a domain.\nWe could optionally add a domain to an org or not here.\nSteps will then generate needed dns changes, TXT and CNAMEs.\nAnd we’re up and running! Next steps… learn how to use the theme.\n"
+            }
+        );
+    index.add(
+            {
+                id:  2 ,
                 href: "\/docs\/",
                 title: "Docs",
                 description: "",

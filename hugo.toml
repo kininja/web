@@ -23,3 +23,16 @@ enableEmoji = true
     [markup.goldmark.parser.attribute]
       block = true
 
+[params]
+  [params.docs]
+    title 	= "Kinji's Lotus Docs site"
+    darkMode	= true
+    prism 	= true 					#enable syntax highlighting
+    primsTheme	= "solarized-light"
+    repoURL	= "https://github.com/kininja/web.git"
+
+    sidebarIcons	= true
+    breadcrumbs		= true
+    backToTop		= true
+    
+
