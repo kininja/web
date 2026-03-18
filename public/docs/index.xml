@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on helical malice</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on helical malice</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Mar 2026 19:43:39 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Page</title>
+      <link>http://localhost:1313/docs/example-page/</link>
+      <pubDate>Tue, 17 Mar 2026 19:43:39 -0700</pubDate>
+      <guid>http://localhost:1313/docs/example-page/</guid>
+      <description>&lt;h1 id=&#34;is-this-an-example-page&#34;&gt;Is this an example page? &lt;a href=&#34;#is-this-an-example-page&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&#34;is-this-a-second-headline&#34;&gt;Is this a second headline? &lt;a href=&#34;#is-this-a-second-headline&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Is this some body text?&lt;/p&gt;&#xA;&lt;p&gt;Yay! Let&amp;rsquo;s do this.&lt;/p&gt;&#xA;&lt;p&gt;-k&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

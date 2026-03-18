@@ -1,6 +1,6 @@
 baseURL = 'http://helicalmalice.org/'
 languageCode = 'en-us'
-title = 'helical malice
+title = 'helical malice'
 contentDir = 'content'
 enableEmoji = true
 
@@ -22,3 +22,4 @@ enableEmoji = true
   [markup.goldmark.parser]
     [markup.goldmark.parser.attribute]
       block = true
+
